@@ -9,3 +9,39 @@
 .sidebar {
   width: 30%;
 }
+
+.site-nav ul {
+  display: flex;
+  padding: 0;
+}
+
+.site-nav li {
+  list-style-type: none;
+}
+
+.site-nav a {
+  padding: 0.5rem 1rem;
+}
+
+.grid {
+  padding: 0;
+}
+
+.grid li {
+  display: inline-block;
+  vertical-align: top;
+  width: 28%;
+  margin: 0 2%;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.grid h2 {
+  margin: 0 0 0.5rem;
+}
+
+.grid p {
+  margin: 0 0 1.5rem;
+}
