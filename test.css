@@ -2,12 +2,22 @@
   display: flex;
 }
 
+.site-body.closed-sidebar .content {
+  width: 100%;
+}
+
+.site-body.closed-sidebar .sidebar {
+  width: 0;
+}
+
 .content {
   width: 70%;
+  transition: width 1s;
 }
 
 .sidebar {
   width: 30%;
+  transition: width 1s;
 }
 
 .site-nav ul {
